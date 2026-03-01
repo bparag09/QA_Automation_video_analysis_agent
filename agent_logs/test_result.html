@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test.feature_result.xml</title>
+    <style type="text/css">
+        body {
+    background-color: white;
+    padding-bottom: 20em;
+    margin: 0;
+    min-height: 15cm;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: #007acc;
+    color: white;
+    padding: 3mm;
+    margin-top: 0;
+    margin-bottom: 1mm;
+}
+
+.footer {
+    font-style: italic;
+    font-size: small;
+    text-align: right;
+    padding: 1em;
+}
+
+.testsuite {
+    padding-bottom: 2em;
+    margin-left: 1em;
+}
+
+.proplist {
+    width: 100%;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+.proplist th {
+    background-color: silver;
+    width: 5em;
+    padding: 2px;
+    padding-right: 1em;
+    text-align: left;
+}
+
+.proplist td {
+    padding: 2px;
+    word-break: break-all;
+}
+
+.index-table {
+    width: 90%;
+    margin-left: 1em;
+}
+
+.index-table td {
+    vertical-align: top;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+.failure-index {
+
+}
+
+.toc {
+    margin-bottom: 2em;
+    font-family: monospace;
+}
+
+.stdio, pre {
+    min-height: 1em;
+    background-color: #1e1e1e;
+    color: silver;
+    padding: 0.5em;
+}
+.tdpre {
+    background-color: #1e1e1e;
+}
+
+.test {
+    margin-left: 0.5cm;
+}
+
+.toc {
+    list-style: none;
+}
+
+.toc li.outcome {
+    list-style: none;
+}
+
+.toc li.outcome::before {
+    content: "\2022";
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.27em;
+    margin-left: -1.27em;
+    font-size: 1.2em;
+}
+
+.toc li.outcome-failed {
+    background-color: lightcoral;
+}
+
+.toc li.outcome-failed::before {
+    color: red;
+}
+
+.toc li.outcome-passed::before {
+    color: green;
+}
+
+.toc li.outcome-skipped::before {
+    color: orange;
+}
+
+.testcases .outcome {
+    border-left: 1em;
+    padding: 2px;
+}
+
+.testcases .outcome-failed {
+    border-left: 1em solid lightcoral;
+}
+
+
+.outcome-passed {
+    border-left: 1em solid lightgreen;
+}
+
+.outcome-skipped {
+    border-left: 1em dotted silver;
+}
+
+.testcases .outcome-passed {
+    border-left: 1em solid lightgreen;
+}
+
+.testcases .outcome-skipped {
+    border-left: 1em solid #FED8B1;
+}
+
+.stats-table {
+}
+
+.stats-table td {
+    min-width: 4em;
+    text-align: right;
+}
+
+.stats-table .failed {
+    background-color: lightcoral;
+}
+
+.stats-table .passed {
+    background-color: lightgreen;
+}
+
+.matrix-table {
+    table-layout: fixed;
+    border-spacing: 0;
+    width: available;
+    margin-left: 1em;
+}
+
+.matrix-table td {
+    vertical-align: center;
+}
+
+.matrix-table td:last-child {
+    width: 0;
+}
+
+.matrix-table tr:hover {
+    background-color: yellow;
+}
+
+.matrix-axis-name {
+    white-space: nowrap;
+    padding-right: 0.5em;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    text-align: right;
+}
+
+.matrix-axis-line {
+    border-left: 1px solid black;
+    width: 0.5em;
+}
+
+.matrix-classname {
+    text-align: left;
+    width: 100%;
+    border-top: 2px solid grey;
+    border-bottom: 1px solid silver;
+}
+
+.matrix-casename {
+    text-align: left;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 1em;
+    border-bottom: 1px solid silver;
+}
+
+.matrix-result {
+    display: block;
+    width: 1em;
+    text-align: center;
+    padding: 1mm;
+    margin: 0;
+}
+
+.matrix-result-combined {
+    white-space: nowrap;
+    padding-right: 0.2em;
+    text-align: right;
+}
+
+.matrix-result-failed {
+    background-color: lightcoral;
+}
+
+.matrix-result-passed {
+    background-color: lightgreen;
+}
+
+.matrix-result-skipped {
+    background-color: lightyellow;
+}
+
+.matrix-even {
+    background-color: lightgray;
+}
+    </style>
+</head>
+<body>
+    
+<h1>
+    Test Report : test.feature_result.xml
+</h1>
+
+
+<a id="toc"></a>
+<table class="index-table">
+    <tr>
+        <td>
+            <ul class="toc">
+            
+                
+                <li>Check search and filtering on the Wrangler website
+                <ul>
+                    
+                    <li class="outcome outcome-failed"><a href="#66fb0b25-cd2e-484c-82d1-9c1eea0b37b6">Search for sweaterSearch for sweater</a></li>
+                    
+                </ul>
+                </li>
+                
+            
+            </ul>
+        </td>
+        <td class="failure-index">
+            <ul class="toc">
+            
+                
+                    
+                    
+                    <li><a href="#66fb0b25-cd2e-484c-82d1-9c1eea0b37b6">[F] Check search and filtering on the Wrangler website : Search for sweaterSearch for sweater</a></li>
+                    
+                    
+                
+            
+            </ul>
+        </td>
+    </tr>
+</table>
+
+
+
+    <div class="testsuite">
+        <h2>Test Suite: Check search and filtering on the Wrangler website</h2>
+        <a id="0575fe6b-a377-431a-902f-c07d5df9128b"></a>
+        
+        
+        <h3>Suite Properties</h3>
+        <table class="proplist">
+            
+            <tr>
+                <th>total_execution_cost</th><td>0.0</td>
+            </tr>
+            
+            <tr>
+                <th>total_token_used</th><td>0</td>
+            </tr>
+            
+        </table>
+        
+        <h3>Results</h3>
+        <table class="proplist">
+            <tr>
+                <th>Duration</th><td>106.1 sec</td>
+            </tr>
+            <tr>
+                <th>Tests</th><td>1</td>
+            </tr>
+            <tr>
+                <th>Failures</th><td>1</td>
+            </tr>
+        </table>
+
+        <div class="testclasses">
+            <h3>Tests</h3>
+            
+            <div class="testclass">
+                <h4>Check search and filtering on the Wrangler website</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-failed">
+                        <a id="66fb0b25-cd2e-484c-82d1-9c1eea0b37b6"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>Search for sweaterSearch for sweater</b></td></tr>
+                            <tr><th>Outcome:</th><td>Failed</td></tr>
+                            <tr><th>Duration:</th><td>106.1 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>EXPECTED RESULT: The &#39;Turtle Neck&#39; filter option is available in the &#39;Neck&#39; filter section for the search term &#39;Rainbow sweater&#39;.
+ACTUAL RESULT: Only the &#39;Crew Neck&#39; filter option is present; &#39;Turtle Neck&#39; is not available.</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        <pre>failed</pre>
+                        
+                        
+
+                        
+                        <table class="proplist">
+                            
+                            <tr>
+                                <th>Terminate</th><td>yes</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Feature File</th><td>/hercules_worker_output/jmgmrfhrcz26jmv/gherkin_files/Search_for_sweaterSearch_for_sweater.feature</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Output File</th><td>/hercules_worker_output/jmgmrfhrcz26jmv/output/run_20250630_084249/Check_search_and_filtering_on_the_Wrangler_website_Search_for_sweaterSearch_for_sweater_results.xml</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Proofs Video</th><td>/hercules_worker_output/jmgmrfhrcz26jmv/proofs/Search_for_sweaterSearch_for_sweater/run_20250630_084249/videos/https_www_wrangler_in_search_Rainbow%20sweater_Search_for_sweaterSearch_for_sweater.webm</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Proofs Base Folder, includes screenshots, recording, netwrok logs, api logs, sec logs, accessibility logs</th><td>/hercules_worker_output/jmgmrfhrcz26jmv/proofs/Search_for_sweaterSearch_for_sweater/run_20250630_084249</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Proofs Screenshot</th><td>/hercules_worker_output/jmgmrfhrcz26jmv/proofs/Search_for_sweaterSearch_for_sweater/run_20250630_084249/screenshots</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Network Logs</th><td>/hercules_worker_output/jmgmrfhrcz26jmv/proofs/Search_for_sweaterSearch_for_sweater/run_20250630_084249/network_logs.json</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Agents Internal Logs</th><td>/hercules_worker_output/jmgmrfhrcz26jmv/log_files/Search_for_sweaterSearch_for_sweater/run_20250630_084249</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>Planner Thoughts</th><td>/hercules_worker_output/jmgmrfhrcz26jmv/log_files/Search_for_sweaterSearch_for_sweater/run_20250630_084249/chat_messages.json</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>plan</th><td>1. Navigate to the Wrangler website at https://wrangler.in.
+2. Validate that the homepage loads successfully and is ready for interaction.
+3. Locate and click on the Search icon to activate the search bar.
+4. Validate that the search bar is visible and ready for input.
+5. Enter the text &#39;Rainbow sweater&#39; into the search bar.
+6. Validate that the search results are updated based on the entered text.
+7. Locate the Neck filter section and select the &#39;Turtle Neck&#39; filter.
+8. Validate that the filter is applied and the results are updated accordingly.
+9. Assert that only one product is displayed as the result, regardless of the product type.
+10. Final assertion: Confirm that the displayed product(s) match the search and filter criteria.</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>next_step</th><td>ASSERTION: The &#39;Turtle Neck&#39; filter option should be available in the &#39;Neck&#39; filter section for the search term &#39;Rainbow sweater&#39;. However, only the &#39;Crew Neck&#39; option is present, and &#39;Turtle Neck&#39; is not available for selection. MANDATORY: Validate that the absence of the required filter option means the test cannot proceed as specified. Provide explicit Task_Completion_Validation with expected vs. actual results. If the assertion fails, terminate the test and report failure.</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>next_step_summary</th><td>Assert that the &#39;Turtle Neck&#39; filter is available for the search term &#39;Rainbow sweater&#39;.</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>terminate</th><td>yes</td>
+                            </tr>
+                            
+                            <tr>
+                                <th>target_helper</th><td>browser</td>
+                            </tr>
+                            
+                        </table>
+                        
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+
+<p class="footer">
+    Generated by junit2html
+</p>
+</body>
+</html>
